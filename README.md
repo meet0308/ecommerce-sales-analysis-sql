@@ -2,7 +2,7 @@ E-Commerce Sales Analysis using MySQL
 
 Project Overview
 
-This beginner-level SQL project analyzes e-commerce sales data to understand product performance, city-wise sales, and profitability.
+This beginner-friendly SQL project analyzes e-commerce sales data to understand sales performance, product profitability, and city-wise revenue.
 
 Tools Used
 
@@ -11,29 +11,33 @@ Tools Used
 
 SQL Concepts Practiced
 
-- SELECT, WHERE, ORDER BY, LIMIT
-- Aggregate functions: SUM, AVG, COUNT
+- SELECT, WHERE, ORDER BY
+- Aggregate Functions: SUM, AVG, COUNT
 - GROUP BY and HAVING
 - CASE WHEN
 - INNER JOIN and LEFT JOIN
 - Subqueries
-- Window functions: ROW_NUMBER(), RANK(), PARTITION BY
-
-Business Questions
-
-- Which products generate the highest sales?
-- Which cities contribute the most revenue?
-- How much profit does each product and category generate?
-- Which orders have high sales values?
-- How do products rank by sales?
+- Window Functions: ROW_NUMBER(), RANK(), PARTITION BY
 
 Key Results
 
-- Total orders: 20
-- Total sales: ₹504,500
-- Total profit: ₹85,500
-- Products analyzed: 6
+- Total Sales: ₹5,04,500
+- Total Profit: ₹85,500
+- Total Orders: 20
+- Total Quantity Sold: 76
+- Profit Margin: 16.95%
+- Highest-Selling Product: Laptop
 
-Learning Outcome
+Project Files
 
-Practiced SQL querying, data aggregation, joining tables, ranking records, and extracting business insights from sales data.
+- "Project_4_E-Commerce_Sales_Analysis.sql" — SQL queries used for data analysis.
+
+What I Learned
+
+- Analyzing sales and profit using SQL
+- Comparing performance across cities and product categories
+- Using joins, grouping, and window functions to answer business questions.- 
+
+Dataset
+
+This project uses sample e-commerce data for learning and portfolio practice.
